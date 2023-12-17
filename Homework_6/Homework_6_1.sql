@@ -141,6 +141,6 @@ GROUP BY company_name;
 
 SELECT name_passenger, place FROM
 Pass_in_trip JOIN passengers ON Pass_in_trip.passenger = passengers.id
-WHERE name_passenger LIKE '% J%' AND place LIKE 'B%'
+WHERE name_passenger LIKE 'J%' AND place LIKE 'B%'
 
 -- DROP DATABASE best_aero
